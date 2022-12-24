@@ -1,0 +1,16 @@
+
+- title: Email
+  url: mailto:dhungel611@gmail.com
+  icon: fa fa-envelope
+
+- title: Twitter
+  url: https://twitter.com/iamprasanga
+  icon: fab fa-twitter
+
+- title: Github
+  url: https://github.com/prasangadhungel
+  icon: fab fa-github
+
+- title: LinkedIn
+  url: https://www.linkedin.com/in/prasangadhungel/
+  icon: fab fa-linkedin
