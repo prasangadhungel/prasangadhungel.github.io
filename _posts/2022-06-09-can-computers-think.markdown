@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Can Computer Think?"
+title:  "Can Computers Think?"
 categories: [Philosophy]
 tags:
   - Philosophy
