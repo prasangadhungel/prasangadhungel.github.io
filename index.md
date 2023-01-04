@@ -3,24 +3,24 @@ layout: page
 type: index
 ---
 
-Hi, I am Prasanga, a Software Engineer interested in Machine Learning, particularly Interpretable Machine Learning (IML) and Explainable AI (XAI). 
+Hi, I am Prasanga, a Software Engineer with a passion for machine learning, particularly Interpretable Machine Learning (IML) and Explainable AI (XAI). 
 
-Currently, I am working as a Data Scientist at [Naamche Inc](https://www.naamche.com) where I am working on assessing real estate’s investment potential by utilizing large-scale real estate data. Prior to this, I was a NLP Engineer at [Diyo.AI](https://diyo.ai/). I completed my undergraduate in Computer Engineering from [Institute of Engineering, Pulchowk Campus](https://pcampus.edu.np/) at Tribhuvan University.
+Currently, I am working as a Data Scientist at [Naamche Inc](https://www.naamche.com) where  I'm focused on leveraging large-scale real estate data to assess investment potential in the industry. Prior to this, I was a NLP Engineer at [Diyo.AI](https://diyo.ai/). I received my undergraduate degree in computer engineering from the [Institute of Engineering, Pulchowk Campus](https://pcampus.edu.np/) at Tribhuvan University.
 
 ---
 <br />
 
 ## Research Imperatives
 
-I am interested in **Machine Learning**, particularly **Interpretable Machine Learning (IML)** and **Low-resource Natural Language Processing**. Following is a list of areas that I have [conducted research](/publications.md) on or would like to work on in the near future:
+I am interested in **Machine Learning**, specifically **Interpretable Machine Learning (IML)** and **Low-resource Natural Language Processing**. Following is a list of areas that I have [conducted research](/publications.md) on or would like to work on in the near future:
 
 - **Explainable AI (XAI):** To facilitate learning and satisfy curiosity about why certain inferences and behaviors of models are such, interpretability and explanations are crucial. I believe that interpretability will improve ML models, make them more transparent and thus trustworthy. Precisely, I am interested in model-agnostic methods to explain AI models, so that the same techniques are applicable for the interpretation of all the models. 
 
-- **Low-resource NLP:** In a low-resource settings like that of Nepal, where labelled data are particularly scarce, techniques like transfer-learning and self supervised learning can be tapped to ameliorate NLP components such as NER, POS-taggings, dependency parsing and many others. My interest in this subject stems from the fact that research in this area will bolster powerful technologies such as chatbots and voice-bots, which are currently only available in Anglo-European and other resource-rich languages.
+- **Low-resource NLP:** In a low-resource settings like that of Nepal, where labelled data are particularly scarce, techniques like transfer-learning and self supervised learning can be tapped to ameliorate NLP components such as NER, POS-taggings, dependency parsing and many others. My interest in this area stems from the desire to bring powerful technologies like chatbots and voicebots – which are currently only available in resource-rich languages – to a wider audience.
 
-- **Computer Vision in Medical Imaging:** My work on medical image segmentation at [NAAMII](https://www.naamii.org.np/) has taught me that computer vision can be a great tool for helping radiologist and surgeons find lesions, tumors, and fractures. This experience greatly fueled my desire to use computer vision to enhance the healthcare industry.
+- **Computer Vision in Medical Imaging:** My work on medical image segmentation at [NAAMII](https://www.naamii.org.np/) has taught me that computer vision can be a great tool for helping radiologist and surgeons find lesions, tumors, and fractures. This experience has fueled my passion for using computer vision to enhance the healthcare industry.
 
-- **Algorithm Optimization:** There are many exciting algorithmic and optimization challenges across different product areas. These include optimizing internal systems such as scheduling the machines that power the numerous computations, as well as optimizations that affect core products and users, from clustering large-scale graphs to finding best paths in transportation networks. I intend to contribute to the new algorithmic ideas that would eventually impact millions of people across the globe.
+- **Algorithm Optimization:** There are numerous exciting algorithmic and optimization challenges in various product areas. These include optimizing internal systems such as scheduling computational machines, as well as optimizing core products and user experiences through techniques like graph clustering and finding optimal paths in transportation networks. I am eager to contribute new algorithmic ideas that have the potential to impact millions of people around the world.
 
 If you are interested in collaborating with me on any research projects or have ideas for future endeavors, please feel free to [reach out](/contact.md). I am always open to discussing new ideas and ways to work together to create something amazing.
 
@@ -34,7 +34,7 @@ If you are interested in collaborating with me on any research projects or have 
 ---
 <br />
 
-## Notable Achievements
+## Achievements and Awards
 
 - [**Represented Nepal in the 47th International Physics Olympiad** *(Jul 2016)*](/achievements/physics_olympiad)
 
@@ -67,7 +67,7 @@ Kathmandu University Coding Tournament is a programming competition organized by
 ---
 <br />
 
-## Notable Projects
+## Projects and Research
 
 - [**Video Compression Net** — *Undergraduate final year project*](https://github.com/tukilabs/Video-Compression-Net)
 

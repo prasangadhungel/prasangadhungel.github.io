@@ -5,4 +5,4 @@ title: Contact
 type: contact
 ---
 
-I am always looking forward to have interesting conversations with people who share my interests. If you have any questions or suggestions about my articles or the work I do, please feel free to send me an email or hit me up with a Twitter DM.
+I'm always excited to connect with like-minded individuals and exchange ideas. If you have a question about one of my articles, a suggestion for improvement, or an idea for a project, don't hesitate to reach out. You can send me an email or a Twitter DM, and I'll get back to you as soon as possible.
