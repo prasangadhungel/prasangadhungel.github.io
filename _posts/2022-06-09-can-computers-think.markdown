@@ -1,15 +1,8 @@
 ---
 layout: post
-title:  "Can Computers Think?"
-categories: [Philosophy]
-tags:
-  - Philosophy
-  - AI
-  - Intelligence
-  - Conciousness
-image:
-  path: /assets/img/can_computers_think.png
-  thumbnail: /assets/img/can_computers_think.png
+title:  Can Computers Think?
+categories: Philosophy
+tags: AI Intelligence Conciousness
 share: True
 comments: True
 ---
@@ -27,6 +20,15 @@ Some critics of the Turing test argue that computers’ high speed and accuracy 
 People claim that a particular computer is better suited for certain tasks only. Humans, on contrary, have a broad spectrum of intelligence. So, across diverse tasks, humans will outshine computers. Turing contended that this limitation is due to the small storage capacity of computers, which limits their ability to perform a broad range of tasks [[1](https://redirect.cs.umbc.edu/courses/471/papers/turing.pdf)]. I believe that computers have the potential to exhibit intelligence similar to that of humans. By combining multiple single-task programs into one computer and building a decider that determines which program is most suited to answer a particular question, we can potentially overcome the limitations imposed by small storage capacity.
 
 Many contend that computers can only perform what they are programmed to. Hence they can neither invent, nor choose their own problem. Therefore, humans will outshine Turing machines on the account of creativity. This contention ignores the fact that only a few extraordinary humans invent or choose their own problems. Minsky posited that outstanding minds differ from ordinary minds only in terms of degree [[2](https://ojs.aaai.org/index.php/aimagazine/article/view/376)]. Thus, if we agree that computers can do tasks of ordinary intelligence, then it is only a matter of time before we see them creating breakthroughs in various disciplines. Deepmind has already demonstrated that AI can discover theorems and formulate hypotheses at the forefront of science [[3](https://www.nature.com/articles/s41586-021-04086-x), [4](https://www.science.org/doi/10.1126/science.abj6511), [5](https://www.nature.com/articles/s41586-021-03819-2)]. Additionally, to those who claim that computers can’t be creative, it is possible to respond that creativity doesn’t exist in the first place since everything we create is derived or at least inspired by something that already exists.
+
+<div class="row mt-3">
+    <div class="col-sm">
+        {% include figure.html path="assets/img/can_computers_think.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Fig 1. Robot mixing sparkling chemicals
+</div>
 
 # Critique of the Turing Test
 

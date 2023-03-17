@@ -1,24 +1,35 @@
 <!DOCTYPE html>
+<html lang="{{ site.lang }}">
 
-<html lang="{{ page.lang | default: site.lang | default: 'en-US' }}" class="no-js">
+  <!-- Head -->
+  <head>
+  {%- if page.redirect -%}
+    <meta http-equiv="refresh" content="3; url={{ site.baseurl }}/" />
+  {%- endif -%}
   {% include head.html %}
-  {% include head-custom.html %}
-  <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %} {% if page.entries_layout == 'grid' %}page--wide{% endif %} {{ page.title | slugify }}">
-    {% include skip-links.html %}
-    {% include navigation.html %}
+  </head>
 
-    {% if page.type == "index" %}
-      {% include masthead.html %}
-    {% elsif page.type == "about" %}
-      {% include abouthead.html %}
-    {% else %}
-      {% include posthead.html %}
-    {% endif %}
+  <!-- Body -->
+  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
 
-    {{ content }}
+    <!-- Header -->
+    {%- include header.html %}
 
-    {% include footer.html %}
-    {% include scripts.html %}
+    <!-- Content -->
+    <div class="container mt-5">
+      {{ content }}
+    </div>
+
+    <!-- Footer -->
+    {%- include footer.html %}
+
+    <!-- JavaScripts -->
+    {% include scripts/jquery.html %}
+    {% include scripts/bootstrap.html %}
+    {% include scripts/masonry.html %}
+    {% include scripts/misc.html %}
+    {% include scripts/mathjax.html %}
+    {% include scripts/analytics.html %}
+    {% include scripts/progressBar.html %}
   </body>
-
 </html>

@@ -1,0 +1,168 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Prasanga Dhungel
+    - name: Date of Birth
+      value: 4th June 1999
+    - name: Current Address
+      value: Traunsteinerstr 1, Munich, Germany
+    - name: Languages
+      value: English, Nepali, German
+
+- title: Education
+  type: time_table
+  contents:
+    - title: Master's in Informatics
+      institution: Technical University of Munich (TUM), Munich, Germany
+      year: Apr 2023 - Present
+
+    - title: Bachelor’s Degree In Computer Engineering
+      institution: Institute of Engineering, Pulchowk Campus, TU, Nepal
+      year: Nov 2016 - Apr 2021
+      description:
+        - "Major Coursework: Theory of Computation, Data Structure and Algorithms, Operating System, Artificial Intelligence, Computer Organization and Architecture, Discrete Structure, Calculus, Data Mining, Probability and Statistics, Big Data"
+        - "Grade: 79.57% in aggregate"
+
+    - title: High School Education
+      institution: Capital Higher Secondary School, Nepal
+      year: Jun 2014 - Aug 2016
+      description:
+        - "Major Coursework: Physics, Chemistry, Mathematics, Computer Programming"
+        - "Grade: 87.2% in aggregate"    
+
+- title: Publications
+  type: time_table
+  contents:
+    - title: Dhungel, P., Tandan, P., Bhusal, S., Neupane, S., & Shakya, S. (2020). An Efficient Video Compression Network. Proceedings of the IEEE, 1028-1034. <a href="https://www.researchgate.net/publication/349802209_An_Efficient_Video_Compression_Network">Link to Paper</a>
+      year: Dec 2020
+
+- title: Work Experience
+  type: time_table
+  contents:
+    - title: Data Scientist
+      institution: Naamche Inc, Kathmandu, Nepal
+      year: Mar 2022 - Mar 2023
+      description:
+        - I explored and analyzed large scale real-estate data. With the application of machine learning, I developed algorithms to assess the investment potential of real estate. I was involved in deploying such models with CI/CD pipelines.
+        - I also worked on various applications of Generative AI
+        - <b>Reference:</b> <a href="mailto:saramsha@naamche.com"> Mr. Saramsha Dotel</a>
+
+    - title: NLP Research & Development
+      institution: Diyo.AI, Kathmandu, Nepal
+      year: Apr 2021 - Mar 2022
+      description:
+        - I worked on open domain and enterprise chatbots that could respond to queries in both English and Nepali.
+        - I also contributed to numerous Nepali NLP components such as Transliteration, Named Entity Recognition, Language detection
+        - For image-based queries, I also implemented object retrieval based on object detection and recognition.
+        - <b>Reference:</b> <a href="mailto:bishesh.khanal@diyo.ai"> Dr. Bishesh Khanal</a>
+
+    - title: Computer Vision Research Intern
+      institution: NAAMII, Kathmandu, Nepal.
+      year: Nov 2020 - Feb 2021
+      description:
+        - I worked on COVID-19 Lung CT Lesion Segmentation (3D) using CNN architectures like U-Net, DeepLabV3. I also participated in MICCAI endorsed competition on Lung Lesion Segmentation
+        - <b>Reference:</b> <a href="mailto:bishesh.khanal@diyo.ai"> Dr. Bishesh Khanal</a>
+
+    - title: Data Science Intern
+      institution: LIS, Lalitpur, Nepal
+      year: Jan 2020 - Jun 2020
+      description:
+        - I worked on assortment recommendations using online sentiments. I also explored and analyzed market trends using large-scale retail data.
+        - <b>Reference:</b> <a href="mailto:hrd@lisnepal.com.np">LIS human resource department</a>
+
+- title: Achievements and Awards
+  type: time_table
+  contents:
+    - year: Jul 2016
+      items: 
+        - Represented Nepal in the 47th International Physics Olympiad, Zurich
+    - year: Nov 2018
+      items: 
+        - Represented Nepal in ACM-ICPC, Dhaka regionals
+    - year: May 2020
+      items: 
+        - "Winner: A day of code"
+    - year: Nov 2018
+      items: 
+        - Represented Nepal in ACM-ICPC, Dhaka regionals
+    - year: Nov 2018
+      items: 
+        - Represented Nepal in ACM-ICPC, Dhaka regionals
+    - year: Nov 2018
+      items: 
+        - Represented Nepal in ACM-ICPC, Dhaka regionals
+    - year: Nov 2018
+      items: 
+        - Represented Nepal in ACM-ICPC, Dhaka regionals
+    - year: Nov 2018
+      items: 
+        - Represented Nepal in ACM-ICPC, Dhaka regionals
+
+- title: Projects and Research
+  type: time_table
+  contents:
+    - title: <a href="https://github.com/tukilabs/Video-Compression-Net">Video Compression Net</a>, Undergraduate final year project
+      year: Nov 2019 - Oct 2020
+      description:
+        - It is a Deep Learning based video compression system that minimizes the number of bits required to encode video frames while also reducing distortion. The major objective of the project was to replace the conventional components in the pipeline of video compression with their neural network equivalents. The trained model equaled the compression ratio of the conventional system.
+        - I was involved in designing the architecture of CNN, combining the components, devising loss functions, and training the network end-to-end.
+
+    - title: <a href="https://vb.me/covid-19emergencybot">Covid-19 Emergency Chatbot</a>
+      year: Jun 2021 - Oct 2021
+      description:
+        - A Viber bot, with more than 1100 subscribers, that caters to Covid-related queries in Nepali and English. With the addition of custom-made components like transliteration and NER, the chatbot was created using Rasa framework.
+
+    - title: <a href="https://github.com/prasangadhungel/POPULATION-SIMULATION-AND-ITS-APPLICATIONS-ON-DISEASE-SPREAD">Population Simulation and Its Applications on Disease Spread</a>
+      year: Jun 2019 - Sep 2019
+      description:
+        - A social-interaction simulation and modeling to visualize, analyze and predict the spread of disease. The simulation was carried out for Lalitpur district using the data from Central Bureau of Statistics, Nepal.
+
+    - title: <a href="https://github.com/PrasangaDhungel/Medical-Image-Segmentation">Lung Lesion Segmentation</a>
+      year: Nov 2020 - Feb 2021
+      description:
+        - A CNN based model that operates on CT images(3D) and segments detect severity of lung lesions caused by SARS-CoV-2 infection. The project was carried out as a part of MICCAI endorsed competition on Lung Lesion Segmentation.
+    
+    - title: <a href="https://devpost.com/software/drow-z">Drow-Z</a>, Second Place in DandyHacks
+      year: Nov 2020 - Feb 2021
+      description:
+        - A CNN based model that operates on CT images(3D) and segments detect severity of lung lesions caused by SARS-CoV-2 infection. The project was carried out as a part of MICCAI endorsed competition on Lung Lesion Segmentation.
+
+
+- title: Skills
+  type: nested_list
+  contents:
+    - title: Programming
+      items: 
+        - Python, C++, C, R, Java, Javascript, MATLAB, Latex
+    - title: AI & ML
+      items:
+        - PyTorch, TensorFlow, Numpy, Scipy, Matplotlib, Scikit, Pandas, PyMC, Dash, OpenCV
+    - title: Database
+      items:
+        - PostgreSQL, MySQL, ElasticSearch, MongoDB, PostGIS, SQLAlchemy, Alembic
+    - title: Web
+      items:
+        - Django, Flask, FastAPI, JS / CSS / HTML, Vuejs
+    - title: Server Tech
+      items:
+        - Docker, AWS, Nginx, Apache, Azure
+
+- title: Involvements
+  type: time_table
+  contents:
+    - year: Dec 2021
+      items: 
+        - Participated in the third Nepal winter school of AI as a teaching assistant in NLP
+    - year: Jan 2020
+      items: 
+        - Organized Locus Codejam
+    - year: Jun 2019
+      items: 
+        - Completed Deep Learning Specialization by Andrew Ng (Coursera)
+    - year: Jan 2019
+      items: 
+        - Participated in Hult prize 2019
+    - year: Dec 2018
+      items: 
+        - Organized and acted as a tutor on a competitive programming workshop

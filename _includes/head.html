@@ -1,55 +1,31 @@
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="google-site-verification" content="ypy5SJlAAf9XsCyLmH7SjqdKHFUg2q7kZ2YZola9duA" />
-  {% if site.owner.google.verify %}<meta name="google-site-verification" content="{{ site.owner.google.verify }}">{% endif %}
-  {% if site.owner.bing-verify %}<meta name="msvalidate.01" content="{{ site.owner.bing-verify }}">{% endif %}
+    <!-- Metadata, OpenGraph and Schema.org -->
+    {% include metadata.html %}
 
-  {% if site.plugins contains 'jekyll-seo-tag' or site.gems contains 'jekyll-seo-tag' %}
-    {% comment %}
-      Add metadata for search engines and social networks if jekyll-seo-tag plugin is enabled
-    {% endcomment %}
-    {% include head-seo.html %}
-  {% else %}
-    <title>{% if page.headtitle %}{{ page.headtitle | escape }}{% elsif page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
-    <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
-    <link rel="canonical" href="{{ page.url | replace:'index.html', '' | absolute_url }}">
-  {% endif %}
+    <!-- Bootstrap & MDB -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@{{ site.bootstrap.version }}/dist/css/bootstrap.min.css" rel="stylesheet" integrity="{{ site.bootstrap.integrity.css }}" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@{{ site.mdb.version }}/css/mdb.min.css" integrity="{{ site.mdb.integrity.css }}" crossorigin="anonymous" />
 
-  <script>
-    /* Cut the mustard */
-    if ( 'querySelector' in document && 'addEventListener' in window ) {
-      document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + 'js';
-    }
-  </script>
+    <!-- Fonts & Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@{{ site.fontawesome.version }}/css/all.min.css" integrity="{{ site.fontawesome.integrity }}" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@{{ site.academicons.version }}/css/academicons.min.css" integrity="{{ site.academicons.integrity }}" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
 
-  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
-  
-  <!-- <link rel="stylesheet" href="{{ site.skin | relative_url }}"> -->
-  <link rel="stylesheet" href="{{ site.dark_skin | relative_url }}">
+    <!-- Code Syntax Highlighting -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/{{ site.highlight_theme_light | append: '.css' }}" media="" id="highlight_theme_light" />
 
-  {% if site.google_fonts %}
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family={%- for font in site.google_fonts -%}{{ font.name | replace: ' ', '+' }}{% if font.weights %}:{% endif %}{{ font.weights | remove: ' ' }}{% if forloop.last != true %}|{% endif %}{%- endfor -%}">
-  {% endif %}
+    <!-- Styles -->
+    {% if site.icon.size < 3 %}
+    <link rel="shortcut icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>{{ site.icon }}</text></svg>">
+    {% elsif site.icon != blank %}
+    <link rel="shortcut icon" href="{{ site.icon | prepend: '/assets/img/' | relative_url}}"/>
+    {% endif %}
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+    
+    <!-- Dark Mode -->
+    {% if site.enable_darkmode %}
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/{{ site.highlight_theme_dark | append: '.css' }}" media="none" id="highlight_theme_dark" />
 
-  {%- if site.plugins contains 'jekyll-feed' or site.gems contains 'jekyll-feed' -%}
-    {%- comment -%}
-      Add Atom feed link if jekyll-feed plugin is enabled
-    {%- endcomment -%}
-    {% include head-feed.html %}
-  {%- endif -%}
-
-  {%- if site.head_scripts -%}
-    {%- for script in site.head_scripts -%}
-      {%- if script contains "://" -%}
-        {%- capture script_path %}{{ script }}{% endcapture -%}
-      {%- else -%}
-        {%- capture script_path %}{{ script | absolute_url }}{% endcapture -%}
-      {%- endif -%}
-      <script src="{{ script_path }}"></script>
-    {%- endfor -%}
-  {%- endif -%}
-
-  {% include head-custom.html %}
-</head>
+    <script src="{{ '/assets/js/theme.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/dark_mode.js' | relative_url }}"></script>
+    {% endif %}

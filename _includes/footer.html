@@ -1,24 +1,25 @@
-<footer id="footer" class="site-footer">
-  {% include footer-custom.html %}
-
-  <!-- {%- if site.footer_links -%}
-    <div class="social-icons">
-      {%- for footer_link in site.footer_links -%}
-        {%- if footer_link.url contains "://" -%}
-          {%- assign url = footer_link.url -%}
-        {%- else -%}
-          {%- assign url = footer_link.url | relative_url -%}
+    {% if site.footer_fixed %}
+    <footer class="fixed-bottom">
+      <div class="container mt-0 text-center">
+        &copy; Copyright {{ site.time | date: '%Y' }} {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}. {{ site.footer_text }}
+        {%- if site.impressum_path -%}
+        <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
         {%- endif -%}
-        <a class="social-icon" href="{{ url }}"><i class="{{ footer_link.icon | default: 'fas fa-link' }} fa-2x" title="{{ footer_link.title }}"></i></a>
-      {%- endfor -%}
-    </div>
-  {%- endif -%} -->
-
-  <div class="copyright">
-    {% if site.copyright %}
-      {{ site.copyright | markdownify }}
-    {% else %}
-      <p>&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}</p>
-    {% endif %}
-  </div>
-</footer>
+        {%- if site.last_updated -%}
+        Last updated: {{ "now" | date: '%B %d, %Y' }}.
+        {%- endif %}
+      </div>
+    </footer>
+    {%- else -%}
+    <footer class="sticky-bottom mt-5 text-center">
+      <div class="container">
+        &copy; Copyright {{ site.time | date: '%Y' }} {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}. {{ site.footer_text }}
+        {%- if site.impressum_path -%}
+        <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
+        {%- endif -%}
+        {%- if site.last_updated -%}
+        Last updated: {{ "now" | date: '%B %d, %Y' }}.
+        {%- endif %}
+      </div>
+    </footer>
+    {%- endif %}
