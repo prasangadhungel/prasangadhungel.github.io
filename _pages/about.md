@@ -18,7 +18,7 @@ social: true  # includes social icons at the bottom of the page
 
 Hi, I am Prasanga, a Software Engineer with a passion for Machine Learning, particularly Robust and Interpretable ML, Machine Learning with Graphs, Low resource NLP, and Generative Modeling.
 
-Currently, I am pursuing a Masters degree in Informatics from [TUM](https://www.tum.de/en/), with a focus on Machine Learning, Analytics, Computer Vision, and High Performance Computing. In past, I worked as a Data Scientist at [Naamche](https://www.naamche.com/) where I was focused on leveraging large-scale real estate data to assess investment potential in the industry. Prior to that, I was a NLP Engineer at [Diyo.AI](https://diyo.ai/). I received my undergraduate degree in Computer Engineering from the Institute of Engineering, Pulchowk Campus at Tribhuvan University.
+Currently, I am pursuing a Masters degree in Informatics at [TUM](https://www.tum.de/en/), with a focus on Machine Learning, Analytics, Computer Vision, and High Performance Computing. In past, I worked as a Data Scientist at [Naamche](https://www.naamche.com/) where I was focused on leveraging large-scale real estate data to assess investment potential in the industry. Prior to that, I was a NLP Engineer at [Diyo.AI](https://diyo.ai/). I received my undergraduate degree in Computer Engineering from the Institute of Engineering, Pulchowk Campus at Tribhuvan University.
 
 ## Research Imperatives
 
