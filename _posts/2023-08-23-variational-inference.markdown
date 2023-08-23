@@ -37,6 +37,30 @@ We want to maximize the log-likelihood of a single data point $$\boldsymbol{x}$$
 \underset{\boldsymbol{\theta}}{\max}\log\boldsymbol{p_{\theta}(x)} = \underset{\boldsymbol{\theta}}{\max}\log(\int \boldsymbol{p_{\theta}(x,z) dz}) = \underset{\boldsymbol{\theta}}{\max}\underbrace{\log(\int \boldsymbol{p_{\theta}(z)}\boldsymbol{p_{\theta}(x|z)} dz)}_{f(\boldsymbol{\theta})} = \underset{\boldsymbol{\theta}}{\max}f(\boldsymbol{\theta}) \nonumber
 \end{equation}
 
-Usually, the integral $$\int\boldsymbol{p_{\theta}(x, z)}dz$$ is intractable to compute. That is, we can't even evaluate the function $$f(\boldsymbol{\theta})$$ that we want to maximize.
+Usually, the integral $$\int\boldsymbol{p_{\theta}(x, z)}dz$$ is intractable to compute. That is, we can't even evaluate the function $$f(\boldsymbol{\theta})$$ that we want to maximize. Thus we maximize the lower bound of $$f(\boldsymbol{\theta})$$ instead.
+
+We find some $$g(\boldsymbol(\theta))$$ that is lower bound of $$f(\boldsymbol{\theta})$$. That is
+\begin{equation}
+f(\boldsymbol{\theta}) \geq g(\boldsymbol{\theta}), \quad\text{for all $\boldsymbol{\theta}$}. \nonumber
+\end{equation}
+
+Then, we maximize $$g(\boldsymbol{\theta})$$ instead of $$f(\boldsymbol{\theta})$$. Maximizing $$g(\boldsymbol{\theta})$$ would give us the lower bound on the solution of the original optimization problem.
+\begin{equation}
+\underset{\boldsymbol{\theta}}{\max}f(\boldsymbol{\theta}) \geq \underset{\boldsymbol{\theta}}{\max}g(\boldsymbol{\theta}) \nonumber
+\end{equation}
+
+We hope that $$\underset{\boldsymbol{\theta}}{\max}f(\boldsymbol{\theta})$$ is close to $$\underset{\boldsymbol{\theta}}{\max}g(\boldsymbol{\theta})$$. If so, why just limiting with only one lower bound $$g(\boldsymbol{\theta})$$? We instead consider a collection of lower bound
+$$
+\mathcal{G} = \{g(\boldsymbol{\theta})|g(\boldsymbol{\theta}) \text{is a lower bound on} f(\boldsymbol{\theta})\}
+$$
+
+# Multiple lower bounds
+We maximize the lower bound that is tighest to $$f(\boldsymbol{\theta})$$.
+
+\begin{equation}
+\underset{\boldsymbol{\theta}}{\max}f(\boldsymbol{\theta}) \geq \underset{g  \in \mathcal{G}}{\max}\underset{\boldsymbol{\theta}}{\max} g(\boldsymbol{\theta}) \nonumber
+\end{equation}
+
+This is called variational optimization, because we are optimizing over the functions($$g$$) themselves.
 
 # References
