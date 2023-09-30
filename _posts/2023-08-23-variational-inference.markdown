@@ -9,7 +9,7 @@ comments: True
 
 In generative modeling, we are interested in modeling $$\boldsymbol{p_{\theta}(x)}$$, where $$\boldsymbol{x}\in\mathbb{R}^{d}$$ is usually high dimensional. So, it is intractable to compute $$\boldsymbol{p_{\theta}(x)}$$ directly. Instead, we introduce a latent variable $$\boldsymbol{z}$$ which simplifies the likelihood estimation of $$\boldsymbol{x}$$. $$\boldsymbol{p_{\theta}(x)}$$ can be intractable to describe within itself, but if the latent variable can take only finitely many values, then we can describe $$\boldsymbol{p_{\theta}(x)}$$ as a marginal distribution of the joint distribution $$\boldsymbol{p_{\theta}(x,z)}$$ over all z.
 
-In latent variable models (LVMs), data are generated using two-step process:
+In latent variable models (LVMs), data can be thought of as generated using two-step process:
 1. Sample the latent variable (prior) 
     \begin{equation}
     \boldsymbol{z} \thicksim \boldsymbol{p_{\theta}(z)} \nonumber
@@ -95,11 +95,13 @@ $$
 \log\boldsymbol{p_{\theta}(x)} =  \underbrace{\mathbb{E}_{\boldsymbol{z} \thicksim \boldsymbol{q(z)}}[\log\frac{\boldsymbol{p_{\theta}(x,z)}}{\boldsymbol{q(z)}}]}_{ELBO = \mathcal{L}(\theta, q)} + \underbrace{\mathbb{KL}(\boldsymbol{q(z)}||\boldsymbol{p_{\theta}(z|x)})}_{\geq 0}
 $$
 
-Since, $$\mathbb{KL}(q(z)||p(z)) \geq 0$$, we have 
+Since, $$\mathbb{KL}(\boldsymbol{q(z)}||\boldsymbol{p_{\theta}(z|x)}) \geq 0$$, we have 
 \begin{equation} \label{eq:elbo}
 \log\boldsymbol{p_{\theta}(x)} \geq \mathcal{L}(\theta, q)
 \end{equation}
 <br>
-Thus, $$\mathcal{L}(\theta, q)$$ is a lower bound on $$\log\boldsymbol{p_{\theta}(x)}. (\ref{eq:elbo})$$ is tight if and only if $$\boldsymbol{q(z)} = \boldsymbol{p_{\theta}(z|x)}$$.
+Thus, $$\mathcal{L}(\theta, q)$$ is a lower bound on $$\log\boldsymbol{p_{\theta}(x)}$$. So, we maximize $$\mathcal{L}(\theta, q)$$. In other words, we find  the parameters $$\theta$$ and distribution $$q(z)$$ that maximize $$\mathcal{L}(\theta, q)$$. $$(\ref{eq:elbo})$$ is tight if and only if $$\boldsymbol{q(z)} = \boldsymbol{p_{\theta}(z|x)}$$.
+
+
 
 # References
