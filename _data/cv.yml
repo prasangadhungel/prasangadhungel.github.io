@@ -42,7 +42,7 @@
 - title: Work Experience
   type: time_table
   contents:
-      - title: Data Scientist
+    - title: Data Scientist
       institution: E.ON Digital Technology, Munich, Germany
       year: Mar 2022 - Mar 2023
       description:
