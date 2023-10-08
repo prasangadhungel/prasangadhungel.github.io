@@ -22,7 +22,7 @@ Currently, I am pursuing a Masters degree in Informatics at [TUM](https://www.tu
 
 ## Research Imperatives
 
-The following is a list of areas that I have [conducted research](/publications.md) on or would like to work on in the near future:
+The following is a list of areas that I have [conducted research](/publications) on or would like to work on in the near future:
 
 - **Explainable AI (XAI):** To facilitate learning and satisfy curiosity about why certain inferences and behaviors of models are such, interpretability and explanations are crucial. I believe that interpretability will improve ML models, make them more transparent and thus trustworthy. Precisely, I am interested in model-agnostic methods to explain AI models, so that the same techniques are applicable for the interpretation of all the models. 
 
