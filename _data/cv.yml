@@ -3,10 +3,10 @@
   contents:
     - name: Full Name
       value: Prasanga Dhungel
-    - name: Date of Birth
-      value: 4th June 1999
     - name: Current Address
       value: Munich, Germany
+    - name: Key Interests
+      value: Reliable/Interpretable ML, Statistical Inference, ML in non-euclidean spaces
     - name: Languages
       value: English, Nepali, German
 
@@ -15,29 +15,25 @@
   contents:
     - title: Master's in Informatics
       institution: Technical University of Munich (TUM), Munich, Germany
-      year: Apr 2023 - Present
+      year: Apr 2023 - Jun 2025
       description:
-        - "Major Coursework: Deep Learning, Machine Learning with Graphs, Deep Generative Models, Advanced NLP, Statistical Foundation of Learning"
-
+        - "Thesis: Efficient Large Scale Data Pruning with Score Extrapolation (Supervisor: Prof. Stephan Günnemann) 1.0/1.0"
+        - "Major Coursework: Deep Learning, Machine Learning with Graphs, Deep Generative Models, Advanced NLP, Statistical Foundation of Learning, Quantum Computing, Tensor Networks, Computer Vision: Detection, Segmentation and Tracking, Deep Learning for Medicine, Computer Vision: Multi-View Geometry"
+        - "Grade: <b>1.2/1.0 (Passed with High Distinction, Top 8%)</b>"
 
     - title: Bachelor’s Degree In Computer Engineering
       institution: Institute of Engineering, Pulchowk Campus, TU, Nepal
       year: Nov 2016 - Apr 2021
       description:
         - "Major Coursework: Theory of Computation, Data Structure and Algorithms, Operating System, Artificial Intelligence, Computer Organization and Architecture, Discrete Structure, Calculus, Data Mining, Probability and Statistics, Big Data"
-        - "Grade: 79.57% in aggregate"
-
-    - title: High School Education
-      institution: Capital Higher Secondary School, Nepal
-      year: Jun 2014 - Aug 2016
-      description:
-        - "Major Coursework: Physics, Chemistry, Mathematics, Computer Programming"
-        - "Grade: 87.2% in aggregate"    
+        - "Grade: 79.57% in aggregate (Top 10%)"
 
 - title: Publications
   type: time_table
   contents:
-    - title: Dhungel, P., Tandan, P., Bhusal, S., Neupane, S., & Shakya, S. (2020). An Efficient Video Compression Network. Proceedings of the IEEE, 1028-1034. <a href="https://www.researchgate.net/publication/349802209_An_Efficient_Video_Compression_Network">Link to Paper</a>
+    - title: Schmidt, S., <b>Dhungel, P.</b>, Löffler, C., Nieth, B., Günnemann, S., & Schwinn, L. (2025). Effective Data Pruning through Score Extrapolation. <a href="https://arxiv.org/abs/2506.09010">Link to Paper</a>
+      year: Jun 2025
+    - title: <b>Dhungel, P.</b>, Tandan, P., Bhusal, S., Neupane, S., & Shakya, S. (2020). An Efficient Video Compression Network. Proceedings of the IEEE, 1028-1034. <a href="https://www.researchgate.net/publication/349802209_An_Efficient_Video_Compression_Network">Link to Paper</a>
       year: Dec 2020
 
 - title: Work Experience
@@ -67,19 +63,15 @@
         - I worked on COVID-19 Lung CT Lesion Segmentation (3D) using CNN architectures like U-Net, DeepLabV3. I also participated in MICCAI endorsed competition on Lung Lesion Segmentation
         - <b>Reference:</b> <a href="mailto:bishesh.khanal@diyo.ai"> Dr. Bishesh Khanal</a>
 
-    - title: Data Science Intern
-      institution: LIS, Lalitpur, Nepal
-      year: Jan 2020 - Jun 2020
-      description:
-        - I worked on assortment recommendations using online sentiments. I also explored and analyzed market trends using large-scale retail data.
-        - <b>Reference:</b> <a href="mailto:hrd@lisnepal.com.np">LIS human resource department</a>
-
 - title: Achievements and Awards
   type: time_table
   contents:
+    - year: Oct 2024
+      items:
+        - Awarded the <b>Deutschlandstipendium </b>  (sponsored by <b>Amazon</b>), granted to the <b>top 900 out of 50,000</b> students, providing €300/month as financial support
     - year: Jul 2016
       items: 
-        - Represented Nepal in the 47th International Physics Olympiad, Zurich
+        - Selected among <b>top 5 students</b> to represent Nepal at 47th <b>International Physics Olympiad</b>, Zürich Switzerland
     - year: Nov 2018
       items: 
         - Represented Nepal in ACM-ICPC, Dhaka regionals
@@ -105,31 +97,20 @@
 - title: Projects and Research
   type: time_table
   contents:
+    - title: <a href="https://github.com/prasangadhungel/Data-Pruning-with-Extrapolated-Scores">Efficient Large Scale Data Pruning with Score Extrapolation</a>, Master's Thesis
+      year: Oct 2023 - Present
+      description:
+        - Proposed a novel framework for large-scale dataset pruning that eliminates costly full-dataset scoring. Our method extrapolates importance scores using geometric data structure (K-NN, GNNs), yielding competitive model performance with substantial end-to-end training time savings across multiple benchmarks and pruning techniques.
+
     - title: <a href="https://github.com/tukilabs/Video-Compression-Net">Video Compression Net</a>, Undergraduate final year project
       year: Nov 2019 - Oct 2020
       description:
-        - It is a Deep Learning based video compression system that minimizes the number of bits required to encode video frames while also reducing distortion. The major objective of the project was to replace the conventional components in the pipeline of video compression with their neural network equivalents. The trained model equaled the compression ratio of the conventional system.
-        - I was involved in designing the architecture of CNN, combining the components, devising loss functions, and training the network end-to-end.
+        - A Deep Learning based video compression system that minimizes the number of bits required to encode video frames while also reducing distortion. The major objective of the project was to replace the conventional components in the pipeline of video compression with their neural network equivalents. The trained model equaled the compression ratio of the conventional system.
 
     - title: <a href="https://vb.me/covid-19emergencybot">Covid-19 Emergency Chatbot</a>
       year: Jun 2021 - Oct 2021
       description:
         - A Viber bot, with more than 1100 subscribers, that caters to Covid-related queries in Nepali and English. With the addition of custom-made components like transliteration and NER, the chatbot was created using Rasa framework.
-
-    - title: <a href="https://github.com/prasangadhungel/POPULATION-SIMULATION-AND-ITS-APPLICATIONS-ON-DISEASE-SPREAD">Population Simulation and Its Applications on Disease Spread</a>
-      year: Jun 2019 - Sep 2019
-      description:
-        - A social-interaction simulation and modeling to visualize, analyze and predict the spread of disease. The simulation was carried out for Lalitpur district using the data from Central Bureau of Statistics, Nepal.
-
-    - title: <a href="https://github.com/PrasangaDhungel/Medical-Image-Segmentation">Lung Lesion Segmentation</a>
-      year: Nov 2020 - Feb 2021
-      description:
-        - A CNN based model that operates on CT images(3D) and segments detect severity of lung lesions caused by SARS-CoV-2 infection. The project was carried out as a part of MICCAI endorsed competition on Lung Lesion Segmentation.
-    
-    - title: <a href="https://devpost.com/software/drow-z">Drow-Z</a>, Second Place in DandyHacks
-      year: Nov 2020 - Feb 2021
-      description:
-        - A CNN based model that operates on CT images(3D) and segments detect severity of lung lesions caused by SARS-CoV-2 infection. The project was carried out as a part of MICCAI endorsed competition on Lung Lesion Segmentation.
 
 
 - title: Skills
@@ -140,7 +121,7 @@
         - Python, C++, C, R, Java, Javascript, MATLAB, Latex
     - title: AI & ML
       items:
-        - PyTorch, TensorFlow, Numpy, Scipy, Matplotlib, Scikit, Pandas, PyMC, Dash, OpenCV
+        - PyTorch, TensorFlow, Scikit, Numpy, W&B, MLflow, Pandas, PyMC, Dash, OpenCV
     - title: Database
       items:
         - PostgreSQL, MySQL, ElasticSearch, MongoDB, PostGIS, SQLAlchemy, Alembic
@@ -149,7 +130,7 @@
         - Django, Flask, FastAPI, JS / CSS / HTML, Vuejs
     - title: Server Tech
       items:
-        - Docker, AWS, Nginx, Apache, Azure
+        - Docker, Terraform, CI/CD, Azure, AWS, Nginx, Apache
 
 - title: Involvements
   type: time_table
