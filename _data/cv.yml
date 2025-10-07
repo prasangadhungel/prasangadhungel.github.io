@@ -8,7 +8,7 @@
     - name: Key Interests
       value: Reliable/Interpretable ML, Statistical Inference, ML in non-euclidean spaces
     - name: Languages
-      value: English, Nepali, German
+      value: English, German, Nepali 
 
 - title: Education
   type: time_table
@@ -17,8 +17,8 @@
       institution: Technical University of Munich (TUM), Munich, Germany
       year: Apr 2023 - Jun 2025
       description:
-        - "Thesis: Efficient Large Scale Data Pruning with Score Extrapolation (Supervisor: Prof. Stephan Günnemann) 1.0/1.0"
-        - "Major Coursework: Deep Learning, Machine Learning with Graphs, Deep Generative Models, Advanced NLP, Statistical Foundation of Learning, Quantum Computing, Tensor Networks, Computer Vision: Detection, Segmentation and Tracking, Deep Learning for Medicine, Computer Vision: Multi-View Geometry"
+        - "Thesis: Efficient Large-Scale Data Pruning Using Score Extrapolation (Supervisor: Prof. Stephan Günnemann), <b>Grade: 1.0/1.0</b>"
+        - "Major Coursework: Deep Learning, Statistical Learning, ML for Graphs and Sequential Data, Advanced NLP, Deep Generative Models, Computer Vision, Quantum Computing, Tensor Networks, Deep Learning for Medicine"
         - "Grade: <b>1.2/1.0 (Passed with High Distinction, Top 8%)</b>"
 
     - title: Bachelor’s Degree In Computer Engineering
@@ -31,57 +31,71 @@
 - title: Publications
   type: time_table
   contents:
-    - title: Schmidt, S., <b>Dhungel, P.</b>, Löffler, C., Nieth, B., Günnemann, S., & Schwinn, L. (2025). Effective Data Pruning through Score Extrapolation. <a href="https://arxiv.org/abs/2506.09010">Link to Paper</a>
+    - title: Schmidt, S., <b>Dhungel, P.</b>, et al. (2025). Effective Data Pruning through Score Extrapolation. In <i>arXiv preprint arXiv:2506.09010</i>. <a href="https://arxiv.org/abs/2506.09010">Link to Paper</a>
       year: Jun 2025
-    - title: <b>Dhungel, P.</b>, Tandan, P., Bhusal, S., Neupane, S., & Shakya, S. (2020). An Efficient Video Compression Network. Proceedings of the IEEE, 1028-1034. <a href="https://www.researchgate.net/publication/349802209_An_Efficient_Video_Compression_Network">Link to Paper</a>
+    - title: <b>Dhungel, P.</b>, et al. (2020). An Efficient Video Compression Network. <i>International Conference on Advances in Computing, Communication and Networking (ICACCCN)</i>. IEEE. <a href="https://www.researchgate.net/publication/349802209_An_Efficient_Video_Compression_Network">Link to Paper</a>
       year: Dec 2020
 
 - title: Work Experience
   type: time_table
   contents:
+    - title: Machine Learning Engineer
+      institution: E.ON, Munich, Germany
+      year: Apr 2025 - Ongoing
+      description:
+        - Architected end-to-end ML infrastructure on <b>Azure using Terraform</b> for infrastructure-as-code, enabling reproducible and scalable deployments with <b>99% uptime</b>.
+        - Designed production-grade <b>CI/CD pipelines (GitLab CI)</b> with blue-green deployment strategies, achieving zero-downtime model updates and <b>30% cost reduction</b>.
+        - Built comprehensive model lifecycle management using <b>MLflow</b> for experiment tracking, versioning, and performance monitoring.
+        - Led recruitment, onboarding, and mentorship of two junior data scientists.
+
+    - title: Data Scientist (Working Student)
+      institution: E.ON, Munich, Germany
+      year: Sep 2023 - Mar 2025
+      description:
+        - Led migration of on-premise data analysis to <b>Azure</b>, transforming a manual 3-day process into an automated daily pipeline, <b>reducing time-to-insight by 66%</b>.
+        - Architected <b>Apache Airflow DAGs</b> for automated data ingestion, preprocessing, model training, and evaluation with real-time anomaly detection.
+        - Developed a novel <b>Robust-PLS algorithm</b> for high-dimensional, correlated feature spaces, achieving a <b>7% improvement in MAE</b>.
+        - Partnered with stakeholders to translate sensor physics into ML feature engineering strategies.
+
     - title: Data Scientist
       institution: Naamche Inc, Kathmandu, Nepal
-      year: Mar 2022 - Mar 2023
+      year: Apr 2021 - Mar 2023
       description:
-        - I explored and analyzed large scale real-estate data. With the application of machine learning, I developed algorithms to assess the investment potential of real estate. I was involved in deploying such models with CI/CD pipelines.
-        - I also worked on various applications of Generative AI
-        - <b>Reference:</b> <a href="mailto:saramsha@naamche.com"> Mr. Saramsha Dotel</a>
-
-    - title: NLP Research & Development
-      institution: Diyo.AI, Kathmandu, Nepal
-      year: Apr 2021 - Mar 2022
-      description:
-        - I worked on open domain and enterprise chatbots that could respond to queries in both English and Nepali.
-        - I also contributed to numerous Nepali NLP components such as Transliteration, Named Entity Recognition, Language detection
-        - For image-based queries, I also implemented object retrieval based on object detection and recognition.
-        - <b>Reference:</b> <a href="mailto:bishesh.khanal@diyo.ai"> Dr. Bishesh Khanal</a>
+        - Developed end-to-end ML systems for real estate investment optimization, processing over $20M in property evaluations.
+        - Trained an <b>ensemble of ARIMA, Prophet, and LSTM</b> to forecast revenue with 14% hindsight error, improving portfolio returns by 12%.
+        - Architected a <b>conversational real estate assistant</b> using <b>BERT-based</b> intent classification and fine-tuned <b>GPT-2</b> for natural language generation.
+        - Partnered with C-suite executives to define technical requirements and demonstrated ROI through bi-weekly demos.
 
     - title: Computer Vision Research Intern
-      institution: NAAMII, Kathmandu, Nepal.
-      year: Nov 2020 - Feb 2021
+      institution: NAAMII, Kathmandu, Nepal
+      year: Nov 2020 - Mar 2021
       description:
-        - I worked on COVID-19 Lung CT Lesion Segmentation (3D) using CNN architectures like U-Net, DeepLabV3. I also participated in MICCAI endorsed competition on Lung Lesion Segmentation
-        - <b>Reference:</b> <a href="mailto:bishesh.khanal@diyo.ai"> Dr. Bishesh Khanal</a>
+        - Designed 3D lung lesion segmentation pipelines for COVID-19 CT scans using <b>U-Net</b> and <b>DeepLabV3</b>, achieving results on par with SOTA benchmarks.
 
 - title: Achievements and Awards
   type: time_table
   contents:
     - year: Oct 2024
       items:
-        - Awarded the <b>Deutschlandstipendium </b>  (sponsored by <b>Amazon</b>), granted to the <b>top 900 out of 50,000</b> students, providing €300/month as financial support
-    - year: Jul 2016
-      items: 
-        - Selected among <b>top 5 students</b> to represent Nepal at 47th <b>International Physics Olympiad</b>, Zürich Switzerland
-    - year: Nov 2018
-      items: 
-        - Represented Nepal in ACM-ICPC, Dhaka regionals
+        - Awarded the <b>Deutschlandstipendium</b> (sponsored by <b>Amazon</b>), granted to the <b>top 900 out of 50,000</b> students, providing €300/month as financial support.
+    - year: Sep 2020
+      items:
+        - "Second Place: DandyHacks organized by the University of Rochester via Devpost"
     - year: May 2020
       items: 
-        - "Winner: A day of code"
+        - "Winner: A Day of Code"
+    - year: Feb 2019
+      items:
+        - "Winner: Locus Codejam"
     - year: Nov 2018
       items: 
-        - Represented Nepal in ACM-ICPC, Dhaka regionals
-
+        - Represented Nepal in ACM-ICPC, Dhaka regionals.
+    - year: Jan 2018
+      items:
+        - "Winner: National Level Programming Contest"
+    - year: Jul 2016
+      items: 
+        - Selected among <b>top 5 students</b> to represent Nepal at 47th <b>International Physics Olympiad</b>, Zürich Switzerland.
 
 - title: Projects and Research
   type: time_table
@@ -101,25 +115,24 @@
       description:
         - A Viber bot, with more than 1100 subscribers, that caters to Covid-related queries in Nepali and English. With the addition of custom-made components like transliteration and NER, the chatbot was created using Rasa framework.
 
-
 - title: Skills
   type: nested_list
   contents:
     - title: Programming
       items: 
-        - Python, C++, C, R, Java, Javascript, MATLAB, Latex
+        - Python (Expert), C++, C, R, Java, Javascript, MATLAB, Latex, Bash/Shell
     - title: AI & ML
       items:
-        - PyTorch, TensorFlow, Scikit, Numpy, W&B, MLflow, Pandas, PyMC, Dash, OpenCV
+        - PyTorch, TensorFlow, Numpy, Scikit, Scipy, Huggingface, Pandas, Dash, OpenCV, Statsmodel, MLflow, W&B
+    - title: MLOps & DevOps
+      items:
+        - Azure, AWS, Terraform, Docker, CI/CD (GitLab, Github), MLflow, Databricks, Apache Airflow, Kubernetes (Basic), Prometheus, Grafana
     - title: Database
       items:
-        - PostgreSQL, MySQL, ElasticSearch, MongoDB, PostGIS, SQLAlchemy, Alembic
+        - PostgreSQL, MySQL, ElasticSearch, MongoDB, PostGIS, SQLAlchemy, Alembic, Delta Lake, Spark, Snowflake
     - title: Web
       items:
-        - Django, Flask, FastAPI, JS / CSS / HTML, Vuejs
-    - title: Server Tech
-      items:
-        - Docker, Terraform, CI/CD, Azure, AWS, Nginx, Apache
+        - FastAPI, Django, Flask, REST APIs, Streamlit, Dash, Nginx, Apache, React, Vuejs, HTML/CSS/JavaScript
 
 - title: Involvements
   type: time_table
