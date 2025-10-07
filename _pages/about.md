@@ -15,28 +15,35 @@ news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
+Hi, I am Prasanga, a Machine Learning Engineer with a passion for building robust, scalable ML systems and conducting research in Reliable ML, Statistical Learning, and Machine Learning in non-Euclidean spaces.
 
-Hi, I am Prasanga, a Software Engineer with a passion for Machine Learning, particularly Robust and Interpretable ML, Machine Learning with Graphs, Low resource NLP, and Generative Modeling.
+Currently, I work as a Machine Learning Engineer at [E.ON](https://www.eon.com/en) in Munich, where I architect end-to-end ML infrastructure on Azure, design production-grade CI/CD pipelines, and lead initiatives in MLOps and model lifecycle management. I recently completed my Master's degree in Informatics at [TUM](https://www.tum.de/en/), graduating with High Distinction (Top 8%), where my thesis on efficient large-scale data pruning was supervised by Prof. Stephan Günnemann and received a grade of 1.0/1.0.
 
-Currently, I am pursuing a Masters degree in Informatics at [TUM](https://www.tum.de/en/), with a focus on Machine Learning, Analytics, Computer Vision, and High Performance Computing. In past, I worked as a Data Scientist at [Naamche](https://www.naamche.com/) where I was focused on leveraging large-scale real estate data to assess investment potential in the industry. Prior to that, I was a NLP Engineer at [Diyo.AI](https://diyo.ai/). I received my undergraduate degree in Computer Engineering from the Institute of Engineering, Pulchowk Campus at Tribhuvan University.
+Prior to my current role, I worked as a Data Scientist at [Naamche Inc](https://www.naamche.com/), where I developed end-to-end ML systems for real estate investment optimization, processing over $20M in property evaluations and building conversational AI assistants. I received my undergraduate degree in Computer Engineering from the Institute of Engineering, Pulchowk Campus at Tribhuvan University, graduating in the top 10% of my class.
 
-## Research Imperatives
+Hi, I am Prasanga, a Machine Learning Engineer with a passion for building robust, scalable ML systems and conducting research in Reliable ML, Statistical Learning, and Machine Learning in non-Euclidean spaces.
 
-The following is a list of areas that I have [conducted research](/publications.md) on or would like to work on in the near future:
+Currently, I work as a Machine Learning Engineer at [E.ON](https://www.eon.com/en) in Munich, where I architect end-to-end ML infrastructure on Azure, design production-grade CI/CD pipelines, and lead initiatives in MLOps and model lifecycle management. I recently completed my Master's degree in Informatics at [TUM](https://www.tum.de/en/), where my thesis explored efficient methods for pruning large-scale datasets through score extrapolation under the supervision of Prof. Stephan Günnemann.
 
-- **Explainable AI (XAI):** To facilitate learning and satisfy curiosity about why certain inferences and behaviors of models are such, interpretability and explanations are crucial. I believe that interpretability will improve ML models, make them more transparent and thus trustworthy. Precisely, I am interested in model-agnostic methods to explain AI models, so that the same techniques are applicable for the interpretation of all the models. 
+Prior to my current role, I worked as a Data Scientist at [Naamche Inc](https://www.naamche.com/), where I developed end-to-end ML systems for real estate investment optimization, processing over $20M in property evaluations and building conversational AI assistants. I received my undergraduate degree in Computer Engineering from the Institute of Engineering, Pulchowk Campus at Tribhuvan University, where I built a strong foundation in algorithms, systems, and artificial intelligence.
 
-- **Low-resource NLP:** In a low-resource settings like that of Nepal, where labelled data are particularly scarce, techniques like transfer-learning and self supervised learning can be tapped to ameliorate NLP components such as NER, POS-taggings, dependency parsing and many others. My interest in this area stems from the desire to bring powerful technologies like chatbots and voicebots – which are currently only available in resource-rich languages – to a wider audience.
+## Research Interests
 
-- **Computer Vision in Medical Imaging:** My work on medical image segmentation at [NAAMII](https://www.naamii.org.np/) has taught me that computer vision can be a great tool for helping radiologist and surgeons find lesions, tumors, and fractures. This experience has fueled my passion for using computer vision to enhance the healthcare industry.
+The following areas represent my current research focus and [published work](/publications.md):
 
-- **Algorithm Optimization:** There are numerous exciting algorithmic and optimization challenges in various product areas. These include optimizing internal systems such as scheduling computational machines, as well as optimizing core products and user experiences through techniques like graph clustering and finding optimal paths in transportation networks. I am eager to contribute new algorithmic ideas that have the potential to impact millions of people around the world.
+- **Data-Centric AI & Efficient Learning:** My master's thesis explored novel approaches to large-scale dataset pruning through score extrapolation, addressing the computational challenges of training on massive datasets. I'm interested in methods that improve data quality, reduce training costs, and make ML more accessible and sustainable.
 
-If you are interested in collaborating with me on any research projects or have ideas for future endeavors, please feel free to [reach out](/contact). I am always open to discussing new ideas and ways to work together to create something amazing.
+- **Robust and Interpretable ML:** Building ML systems that are not only accurate but also reliable and explainable is crucial for real-world deployment. I'm particularly interested in developing methods that handle distribution shifts, outliers, and provide meaningful explanations for model decisions—essential for domains like energy systems and critical infrastructure.
+
+- **Machine Learning in Non-Euclidean Spaces:** Graph neural networks and geometric deep learning open exciting possibilities for modeling complex relational data. My work has explored using geometric data structures for efficient learning, and I'm interested in applying these techniques to real-world problems involving networks, molecules, and spatial data.
+
+- **MLOps & Production ML:** Bridging the gap between research and production is critical. I'm passionate about building scalable ML infrastructure, implementing robust monitoring systems, and establishing best practices that enable teams to deploy and maintain ML systems reliably at scale.
+
+If you are interested in collaborating on research projects or discussing ideas, please feel free to [reach out](/contact). I am always open to exploring new challenges and opportunities to create impactful solutions.
 
 ---
 <br />
 
-## Miscellaneous
+## Beyond Work
 
-I am a lover of literature, intellectual podcasts, and the beauty of nature. In my free time, you can find me lost in a good book, exploring the great outdoors, or indulging in a thought-provoking film. But my true passion lies in the ability to convey complex ideas in a clear and accessible manner through writing. I am excited to share my thoughts and perspectives with you through this platform. Thank you for visiting!
+I am a lover of literature, intellectual podcasts, and the beauty of nature. In my free time, you can find me lost in a good book, exploring the Bavarian Alps, or indulging in a thought-provoking film. I'm passionate about clear communication and enjoy breaking down complex technical concepts into accessible narratives. Thank you for visiting!
