@@ -2,8 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='https://www.tum.de/'>Master's in Informatics at TUM</a>, Lifelong learner.
-
+subtitle: <b>Building production ML systems. Interested in robust, efficient, and interpretable AI.</b>
 profile:
   align: right
   image: prof_pic.jpg
