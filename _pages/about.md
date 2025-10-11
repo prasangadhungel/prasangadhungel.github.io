@@ -22,7 +22,7 @@ Prior to my current role, I worked as a Data Scientist at [Naamche Inc](https://
 
 ## Research Interests
 
-The following areas represent my current research focus and [published work](/publications.md):
+The following areas represent my current research focus and [published work](/publications):
 
 - **Data-Centric AI & Efficient Learning:** My master's thesis explored novel approaches to large-scale dataset pruning through score extrapolation, addressing the computational challenges of training on massive datasets. I'm interested in methods that improve data quality, reduce training costs, and make ML more accessible and sustainable.
 
