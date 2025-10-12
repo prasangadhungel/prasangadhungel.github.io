@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Prasanga
 middle_name:
 last_name: Dhungel
-email: prasanga.dhungel@tum.de
+email: prasanga [dot] dhungel[at] tum [dot] de
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Master's in Informatics at the Technical University of Munich (TUM), a Deep Learning Enthusiast
 footer_text: >
