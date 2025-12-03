@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Can Computers Think?
+title:  PAC-Bayes Bound?
 categories: Mathematics
 tags: AI ML Mathematics
 share: True
