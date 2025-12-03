@@ -18,15 +18,15 @@
       year: Apr 2023 - Jun 2025
       description:
         - "Thesis: Efficient Large-Scale Data Pruning Using Score Extrapolation (Supervisor: Prof. Stephan Günnemann), <b>Grade: 1.0/1.0</b>"
-        - "Major Coursework: Deep Learning, Statistical Learning, ML for Graphs and Sequential Data, Advanced NLP, Deep Generative Models, Computer Vision, Quantum Computing, Tensor Networks, Deep Learning for Medicine"
-        - "Grade: <b>1.2/1.0 (Passed with High Distinction, Top 8%)</b>"
+        - "Major Coursework: Deep Learning, Statistical Learning, ML for Graphs and Sequential Data, Advanced NLP, Deep Generative Models, Computer Vision (Detection, Segmentation, Tracking), Computer Vision (Multiview Geometry) Quantum Computing, Tensor Networks, Deep Learning for Medicine"
+        - "Grade: <b>1.2/1.0 (Passed with High Distinction, Top 10%)</b>"
 
     - title: Bachelor’s Degree In Computer Engineering
       institution: Institute of Engineering, Pulchowk Campus, TU, Nepal
       year: Nov 2016 - Apr 2021
       description:
-        - "Major Coursework: Theory of Computation, Data Structure and Algorithms, Operating System, Artificial Intelligence, Computer Organization and Architecture, Discrete Structure, Calculus, Data Mining, Probability and Statistics, Big Data"
-        - "Grade: 79.57% in aggregate (Top 10%)"
+        - "Major Coursework: Theory of Computations, Data Structures and Algorithms, Operating Systems, Database Systems, Object Oriented Programming, Artificial Intelligence, Computer Organization and Architecture, Discrete Structure, Calculus, Data Mining, Linear Algebra, Probability, Statistics, Big Data"
+        - "Grade: 79.57% in aggregate (Top 5%)"
 
 - title: Publications
   type: time_table
