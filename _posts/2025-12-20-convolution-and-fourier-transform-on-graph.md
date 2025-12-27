@@ -115,6 +115,7 @@ Note that the **Convolution** is a linear combination of **Shifts**.
 Computationally, this is equivalent to element-wise multiplication in the spectral domain:
 
 $$ \mathcal{F}(f * g) = \mathcal{F}(f) \cdot \mathcal{F}(g) $$
+
 $$ f * g = \mathcal{F}^{-1} \big( \mathcal{F}(f) \cdot \mathcal{F}(g) \big) $$
 
 **The Problem:** On a graph, there is no canonical definition of "translation" ($$t - \tau$$), so we cannot apply the spatial definition of convolution directly. However, we *can* define the Laplacian operator on a graph. Therefore, we define graph convolution via the spectral domain. Here is how it works:
