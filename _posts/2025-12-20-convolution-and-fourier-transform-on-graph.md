@@ -105,6 +105,47 @@ If you were to write this operator as a "matrix" (infinite dimensional), it woul
 
 Why do we use complex exponentials $$e^{i \omega t}$$? Because they are the **eigenfunctions of the Laplace operator** $$\Delta = \nabla^2$$.  Thus, the Fourier modes are the eigenfunctions of the Laplacian, and the eigenvalues correspond to frequencies (squared). So, the operations become element-wise.
 
+$$ L u_k = \lambda_k u_k $$
+
+Let's calculate this explicitly for the $N=4$ ring graph using the matrix and vectors from your script.
+
+
+**The Scaling Factor:**
+The vectors $$u_k$$ all have a scaling factor of $$\frac{1}{2}$$ (which is $$1/\sqrt{N}$$). Since matrices are linear, we can ignore this factor during multiplication and add it back at the end. It doesn't change the direction of the vector.
+
+Let's look at $$u_2$$ first because it uses real numbers, making the arithmetic easiest to see.
+$$ u_2 = \frac{1}{2} \begin{bmatrix} 1 \\ -1 \\ 1 \\ -1 \end{bmatrix} $$
+
+We calculate $$L \cdot u_2$$ (ignoring the $$\frac{1}{2}$$ for a moment):
+
+$$
+\begin{bmatrix} 2 & -1 & 0 & -1 \\ -1 & 2 & -1 & 0 \\ 0 & -1 & 2 & -1 \\ -1 & 0 & -1 & 2 \end{bmatrix}
+\begin{bmatrix} 1 \\ -1 \\ 1 \\ -1 \end{bmatrix}
+=
+\begin{bmatrix}
+(2)(1) + (-1)(-1) + (0)(1) + (-1)(-1) \\
+(-1)(1) + (2)(-1) + (-1)(1) + (0)(-1) \\
+(0)(1) + (-1)(-1) + (2)(1) + (-1)(-1) \\
+(-1)(1) + (0)(-1) + (-1)(1) + (2)(-1)
+\end{bmatrix}
+$$
+
+**Row by Row calculation:**
+1.  $$2 + 1 + 0 + 1 = \mathbf{4}$$
+2.  $$-1 - 2 - 1 + 0 = \mathbf{-4}$$
+3.  $$0 + 1 + 2 + 1 = \mathbf{4}$$
+4.  $$-1 + 0 - 1 - 2 = \mathbf{-4}$$
+
+$$ \text{Result} = \begin{bmatrix} 4 \\ -4 \\ 4 \\ -4 \end{bmatrix} $$
+
+Notice that this result is exactly **4 times** the input vector:
+$$ 4 \times \begin{bmatrix} 1 \\ -1 \\ 1 \\ -1 \end{bmatrix} $$
+
+So, $$L u_2 = 4 u_2$$.
+*   **Conclusion:** $$u_2$$ is an eigenvector.
+*   **Eigenvalue ($$\lambda_2$$):** 4. (This represents the highest frequency).
+
+
 #### 2.3 The Convolution Theorem
 The convolution of functions $$f$$ and $$g$$, denoted $$f * g$$, is defined as:
 
