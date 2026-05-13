@@ -6,7 +6,7 @@
     - name: Current Address
       value: Saarbrücken, Germany
     - name: Key Interests
-      value: Reliable/Interpretable ML, Statistical Inference, ML in non-euclidean spaces
+      value: Efficient & Reliable ML
     - name: Languages
       value: English, German, Nepali 
 
@@ -49,7 +49,7 @@
   contents:
     - title: Machine Learning Engineer
       institution: E.ON, Munich, Germany
-      year: Apr 2025 - Ongoing
+      year: Apr 2025 - May 2026
       description:
         - Architected end-to-end ML infrastructure on <b>Azure using Terraform</b> for infrastructure-as-code, enabling reproducible and scalable deployments with <b>99% uptime</b>.
         - Designed production-grade <b>CI/CD pipelines (GitLab CI)</b> with blue-green deployment strategies, achieving zero-downtime model updates and <b>30% cost reduction</b>.
