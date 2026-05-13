@@ -18,14 +18,15 @@
       year: Jul 2026 - Jun 2030
       description:
         - "Supervisor: Dr. Rebekka Burkholz"
-        - "Lab: <b>Relational ML Lab</b>"
+        - "Lab: Relational ML Lab"
         - "Research Topic: Efficiency in Machine Learning"
 
     - title: Master's in Informatics
       institution: Technical University of Munich (TUM), Munich, Germany
       year: Apr 2023 - Jun 2025
       description:
-        - "Thesis: Efficient Large-Scale Data Pruning Using Score Extrapolation (Supervisor: Prof. Stephan Günnemann), <b>Grade: 1.0/1.0</b>"
+        - "Thesis: Efficient Large-Scale Data Pruning Using Score Extrapolation"
+        - "Thesis Supervisor: Prof. Stephan Günnemann,  Thesis Grade: 1.0/1.0"
         - "Major Coursework: Deep Learning, Statistical Learning, ML for Graphs and Sequential Data, Advanced NLP, Deep Generative Models, Computer Vision (Detection, Segmentation, Tracking), Computer Vision (Multiview Geometry) Quantum Computing, Tensor Networks, Deep Learning for Medicine"
         - "Grade: <b>1.2/1.0 (Passed with High Distinction, Top 10%)</b>"
 
