@@ -14,15 +14,13 @@ news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-Hi, I am Prasanga, a Machine Learning researcher and engineer driven by an ambition to democratize AI by prioritizing efficiency and reliability through theoretical understanding.
+Hi, I am Prasanga, an incoming Ph.D. student in Machine Learning at [CISPA Helmholtz](https://cispa.de/en) / [ELLIS Unit Saarbrücken](https://ellis.eu/research/sites/unit-saarbrucken). Starting in July 2026, I will join the [Relational ML Lab](https://relationalml.github.io/) under the supervision of [Dr. Rebekka Burkholz](https://sites.google.com/view/rebekkaburkholz/) focusing on **Efficiency in Machine Learning**.
 
-My journey began at the Institute of Engineering, Pulchowk Campus in Nepal, where I encountered the steep computational barriers that confine cutting-edge research to well-resourced institutions. Attempting to train custom CNNs without GPU access was a revelation—it highlighted the critical need for **efficiency** in modern AI. This motivated my early work on [video compression](https://ieeexplore.ieee.org/document/9362823/) using minimalistic neural networks, which achieved commercial-grade performance at a fraction of the computational cost.
+My research interest centers on democratizing AI and challenging the "scale at all costs" paradigm. Through theoretically grounded algorithms, my interest lies in transcending the traditional trade-off between efficiency and performance, thereby making AI computationally accessible while maintaining its predictive power.
 
-I recently completed my Master's degree in Informatics at [TUM](https://www.tum.de/en/), where my thesis explored efficient methods for pruning large-scale datasets through score extrapolation under the supervision of [Prof. Stephan Günnemann](https://www.professoren.tum.de/guennemann-stephan). My coursework spanned Deep Learning, Machine Learning, Computer Vision, and Quantum Computing—providing me with a strong theoretical foundation alongside practical skills in building production ML systems.
+I recently completed my Master's degree in Informatics at [TUM](https://www.tum.de/en/), where my thesis, supervised by [Prof. Stephan Günnemann](https://www.professoren.tum.de/guennemann-stephan), explored efficient methods for pruning large-scale datasets via score extrapolation. Prior to this, I completed my undergraduate studies at the Institute of Engineering, Pulchowk Campus in Nepal.
 
-Currently, I work as a Machine Learning Engineer at [E.ON](https://www.eon.com/en) in Munich, My time in industry—both at [E.ON](https://www.eon.com/en) and previously at [Naamche](https://www.naamche.com/)—exposed the stark gap between academic benchmarks and real-world application. I witnessed how models that excelled in training often faltered in deployment due to subtle calibration drifts or lacked the explainability required by stakeholders.
-
-These experiences have shaped my research objective: we must move beyond the "scale at all costs" paradigm. I am now focused on rigorous theoretical analysis to build systems that are not just powerful, but sustainable, trustworthy, and mathematically understood.
+Alongside my academic background, I have gained practical experience as a Machine Learning Engineer at E.ON and Naamche. During this time, I experienced the stark gap between academic benchmarks and real-world deployment. Seeing firsthand the challenges of calibration drifts and a lack of explainability deeply informed my doctoral research focus. I now strive to create AI systems that are both highly efficient and fundamentally reliable.
 
 ## Research Interests
 
