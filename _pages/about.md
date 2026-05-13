@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <b>Building production ML systems. Interested in robust, efficient, and interpretable AI.</b>
+subtitle: "<b>Incoming Ph.D. Student in ML, CISPA/ELLIS | Focus: Efficient, Reliable & Interpretable ML</b>"
 profile:
   align: right
   image: prof_pic.jpg

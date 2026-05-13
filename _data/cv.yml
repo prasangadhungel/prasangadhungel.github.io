@@ -4,7 +4,7 @@
     - name: Full Name
       value: Prasanga Dhungel
     - name: Current Address
-      value: Munich, Germany
+      value: Saarbrücken, Germany
     - name: Key Interests
       value: Reliable/Interpretable ML, Statistical Inference, ML in non-euclidean spaces
     - name: Languages
@@ -13,6 +13,14 @@
 - title: Education
   type: time_table
   contents:
+    - title: Machine Learning Ph.D.
+      institution: CISPA Helmholtz / ELLIS Unit Saarbrücken, Germany
+      year: Jul 2026 - Jun 2030
+      description:
+        - "Supervisor: Dr. Rebekka Burkholz"
+        - "Lab: <b>Relational ML Lab</b>"
+        - "Research Topic: Efficiency in Machine Learning"
+
     - title: Master's in Informatics
       institution: Technical University of Munich (TUM), Munich, Germany
       year: Apr 2023 - Jun 2025
