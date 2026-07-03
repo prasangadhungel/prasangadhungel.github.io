@@ -6,9 +6,9 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Prasanga
 middle_name:
 last_name: Dhungel
-email: prasanga [dot] dhungel[at] tum [dot] de
+email: prasanga [dot] dhungel[at] cispa [dot] de
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Master's in Informatics at the Technical University of Munich (TUM), a Deep Learning Enthusiast
+  Ph.D. Student in ML at CISPA/ELLIS | Passionate about Efficient AI & Deep Learning Theory.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 keywords: Prasanga, Prasanga, Deep Learning, AI, Mathematics  # add your own keywords or leave empty

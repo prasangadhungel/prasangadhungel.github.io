@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: "<b>Incoming Ph.D. Student in ML, CISPA/ELLIS | Focus: Efficient, Reliable & Interpretable ML</b>"
+subtitle: "<b>Ph.D. Student in ML, CISPA/ELLIS | Focus: Efficient, Reliable & Interpretable ML</b>"
 profile:
   align: right
   image: prof_pic.jpg
@@ -14,9 +14,9 @@ news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-Hi, I am Prasanga, an incoming Ph.D. student in Machine Learning at [CISPA Helmholtz](https://cispa.de/en) / [ELLIS Unit Saarbrücken](https://ellis.eu/research/sites/unit-saarbrucken). Starting in July 2026, I will join the [Relational ML Lab](https://relationalml.github.io/) under the supervision of [Dr. Rebekka Burkholz](https://sites.google.com/view/rebekkaburkholz/) focusing on **Efficiency in Machine Learning**.
+Hi, I am Prasanga, a Ph.D. student in Machine Learning at [CISPA](https://cispa.de/en) / [ELLIS Unit Saarbrücken](https://ellis.eu/research/sites/unit-saarbrucken). I am part of the [Relational ML Lab](https://relationalml.github.io/) under the supervision of [Dr. Rebekka Burkholz](https://sites.google.com/view/rebekkaburkholz/), focusing on **Efficiency in Machine Learning**.
 
-My research interest centers on democratizing AI and challenging the "scale at all costs" paradigm. Through theoretically grounded algorithms, my interest lies in transcending the traditional trade-off between efficiency and performance, thereby making AI computationally accessible while maintaining its predictive power.
+My research interest centers on democratizing AI and challenging the "scale at all costs" paradigm, alongside a strong interest in Deep Learning Theory and Learning theory in general. Through theoretically grounded algorithms, my interest lies in transcending the traditional trade-off between efficiency and performance, thereby making AI computationally accessible while maintaining its predictive power.
 
 I recently completed my Master's degree in Informatics at [TUM](https://www.tum.de/en/), where my thesis, supervised by [Prof. Stephan Günnemann](https://www.professoren.tum.de/guennemann-stephan), explored efficient methods for pruning large-scale datasets via score extrapolation. Prior to this, I completed my undergraduate studies at the Institute of Engineering, Pulchowk Campus in Nepal.
 
